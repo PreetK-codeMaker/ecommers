@@ -1,0 +1,74 @@
+.Navbar{
+
+    height: 50px;
+    display: flex;
+    align-content: center;
+    background-color: royalblue;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+}
+.navbar_logo{
+    /*border-style: solid; !*Deletre after*!*/
+    width: 80px; /*Deals with Image width*/
+    object-fit: contain;
+    margin:0 20px;
+    margin-top: 10px;
+}
+.navbar_search{
+    display: flex;
+    flex: 1;
+    align-items: center; /*Center logo*/
+    border-radius: 24px;
+}
+/*Dealing with the search bar*/
+.header_searchIcon{
+    padding: 5px;
+    height: 22px !important;
+    background-color: #cd9042;
+}
+
+.navbar_search_input {
+
+    padding: 10px;
+    height: 12px;
+    border: none;
+    width: 100%;
+
+}
+.navbar_nav{
+    display:flex;
+    justify-content: space-evenly;
+}
+.header_optionLineOptionOne {
+    font-size: 10px;
+    padding: 5px;
+}
+
+.link{
+    text-decoration: none;
+    color: #FFF;
+}
+.header_optionLineOptionTwo{
+    font-size: 13px;
+    font-weight: 800;
+    padding: 5px;
+}
+.navbar_option {
+    display: flex;
+    flex-direction:inherit;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+
+}
+/*Targeting basket*/
+.navbar_optionBasket {
+    display: flex;
+    align-items: center;
+}
+.header_Basket{
+    margin-right: 5px;
+    margin-left: 2px;
+}

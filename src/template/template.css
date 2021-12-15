@@ -1,0 +1,54 @@
+html {
+    font-size: 80%;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    height: 100vh;
+    front-size: 1.6rem;
+    font-family: Copperplate, Copperplate Gothic Light, fantasy;
+}
+
+.grid-containert {
+    display: grid;
+    grid-template-areas: 'header' 'main'; /**Handles the other dividing of the area*/
+    grid-template-columns: 1fr;
+    grid-template-rows: 5rem 1fr 5rem;
+
+}
+header {
+    grid-area: header;
+    background-color: lightslategrey;
+}
+
+main {
+    grid-area: main;
+    padding: 1rem;
+}
+/*For common use*/
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff8000;
+}
+/*Header*/
+header a {
+    color: #ffffff;
+    padding: 1rem;
+}
+a.brandName {
+    color: whitesmoke;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.row.center {
+    justify-content: center;
+}
